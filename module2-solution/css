@@ -1,1 +1,29 @@
+/* Common styles for all views */
+.section {
+    border: 1px solid black;
+    padding: 20px;
+    margin: 10px;
+    background-color: #e0e0e0;
+    position: relative;
+}
+
+.section-title {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+/* Media queries for responsive layout */
+@media screen and (max-width: 991px) {
+    /* Tablet view styles here */
+    /* Adjust section layout as needed */
+}
+
+@media screen and (max-width: 767px) {
+    /* Mobile view styles here */
+    /* Adjust section layout as needed */
+}
 
